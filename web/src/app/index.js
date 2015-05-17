@@ -10,5 +10,6 @@ angular.module('web', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngRes
       });
 
     $urlRouterProvider.otherwise('/');
+
   })
 ;
