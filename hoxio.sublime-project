@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/Users/larsvinter/Code/costadigital-io"
 		}
 	]
 }
