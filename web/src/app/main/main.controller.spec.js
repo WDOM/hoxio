@@ -10,6 +10,9 @@ describe('controllers', function(){
   }));
 
   it('should validate the set up', inject(function($controller) {
+    $controller('MainCtrl', {
+      $scope: scope
+    });
     expect(true).toBeTruthy();
   }));
 });

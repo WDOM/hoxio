@@ -7,6 +7,11 @@ angular.module('web', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngRes
         url: '/',
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
+      })
+      .state('login', {
+        url: '/login',
+        templateUrl: 'app/login/login.html',
+        controller: 'LoginCtrl'
       });
 
     $urlRouterProvider.otherwise('/');
