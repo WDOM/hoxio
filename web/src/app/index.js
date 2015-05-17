@@ -12,6 +12,11 @@ angular.module('web', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngRes
         url: '/login',
         templateUrl: 'app/login/login.html',
         controller: 'LoginCtrl'
+      })
+      .state('channels', {
+        url: '/channels',
+        templateUrl: 'app/channels/channels.html',
+        controller: 'ChannelsCtrl'
       });
 
     $urlRouterProvider.otherwise('/');
