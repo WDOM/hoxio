@@ -1,0 +1,14 @@
+{
+  "name": "hoxio",
+  "version": "1.0.0",
+  "description": "APIs to support web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "WDOM",
+  "license": "GPG",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
